@@ -21,14 +21,64 @@
 # Book.update(110,550)
 # obj.show_details()
 
-class Book:
+
+#staticmethod
+
+
+# class Book:
     
-    def welcome():
-        print("welcome to my web page")
+#     def welcome():
+#         print("welcome to my web page")
         
-    @staticmethod
-    def thanx():
-        print("thanks for visit")
+#     @staticmethod
+#     def thanx():
+#         print("thanks for visit")
         
-obj=Book()
-Book.welcome()
+# obj=Book()
+# Book.welcome()
+
+
+# from abc import ABC,abstractmethod
+
+# class BankApp(ABC):
+#     def login(self):
+#         print("user login")
+    
+#     def logout(self):
+#         print("user logout")
+        
+#     def userdetail(self):
+#         print("user details")
+        
+#     @abstractmethod
+    
+#     def database(self):
+#         pass
+    
+# class WebPage(BankApp):
+#     def database(self):
+#         print("database connected")
+        
+        
+# obj=WebPage()
+# obj.login()
+# obj.logout()
+# obj.userdetail()
+
+
+
+class A:
+    x=10
+    y=20
+    def home(self):
+        print("have a home")
+        
+    def car(self):
+        print("have a car")
+        
+class B(A):
+    def newHome(self):
+        print("new home")
+        
+obj=B()
+obj.home()
