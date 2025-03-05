@@ -65,20 +65,37 @@
 # obj.logout()
 # obj.userdetail()
 
+#Inheritance............
 
+# class A:
+#     x=10
+#     y=20
+#     def home(self):
+#         print("have a home")
+        
+#     def car(self):
+#         print("have a car")
+        
+# class B(A):
+#     def newHome(self):
+#         print("new home")
+        
+# obj=B()
+# obj.home()
 
-class A:
+#Types of Inheritance 
+#single,multiple,multilevel ,hirarichial inheritance
+
+class Parent:
     x=10
-    y=20
     def home(self):
-        print("have a home")
+        print("Parent Home")
         
+class Child(Parent):
+    y=20
     def car(self):
-        print("have a car")
+        print("Child Car")
         
-class B(A):
-    def newHome(self):
-        print("new home")
-        
-obj=B()
+obj=Child()
+print(obj.x)
 obj.home()
