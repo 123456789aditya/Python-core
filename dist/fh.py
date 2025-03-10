@@ -10,11 +10,13 @@
 # f.write(data)
 # f.close()
 
-f=open('n1.txt','r')
+f=open("n1.txt",'rb')
+# data='Aditya pathak will be a dictator of India'
 data=f.read()
 print(data)
-print(f.readline())
-
+print(f.tell())
+f.seek(-10,2)
+print(f.tell())
 
 
 
