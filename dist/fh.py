@@ -48,31 +48,6 @@
 
 
 
-# f=open("n1.txt",'rb')
-# # data='Aditya pathak will be a dictator of India'
-# data=f.read()
-# print(data)
-# print(f.tell())
-# f.seek(-10,2)
-# print(f.tell())
-
-
-
-
-
-
-
-
-
-# f=open("n1.txt",'rb')
-# # data='Aditya pathak will be a dictator of India'
-# data=f.read()
-# print(data)
-# print(f.tell())
-# f.seek(-10,2)
-# print(f.tell())
-
-
 
 
 
