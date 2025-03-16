@@ -66,15 +66,49 @@
         
 
 
+# def square(n):
+#     return n**2
+
+# n=eval(input("enter any number:"))
+
+# res=map(square,n)
+# print(list(res))
 
 
+# def display(x,y,z):
+#     return x+y+z
 
+# l1=[2,4,6]
+# l2=[1,2,3]
+# l3=[4,7,2,8,6,9]
 
+# res=map(display,l1,l2,l3)
+# print(list(res))
 
-
-
+# def new():
+#     yield "neeraj"
+    
+# x=new()
+# #print(x.__next__())
+# print(next(x))
     
     
+# def even(n):
+#     i=0
+#     while i<=n:
+#         if i%2==0:
+#             yield i
+#         i=i+1
+        
+        
+# result=even(10)
+# print(result.__next__())
+
+
+def outer_fun(fun):
+    def inner_fun(x,y,z):
+        
+        
     
     
     
