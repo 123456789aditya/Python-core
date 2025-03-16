@@ -191,13 +191,13 @@
 #     def home(self):
 #         print("from child2 class")      
         
-# class Child3(Child1,Child2):
-#     def new(self):
-#         print("from child3")
+class Child3(Child1,Child2):
+    def new(self):
+        print("from child3")
         
-# obj=Child3()
-# obj.home()
-# print(Child3.__mro__)  
+obj=Child3()
+obj.home()
+print(Child3.__mro__)  
 
 
 
