@@ -132,72 +132,72 @@
 #     def car(self):
 #         print("child car")
         
-# obj=Child()
-# obj.home()
+# # obj=Child()
+# # obj.home()
 
-#Multilevel inheritance
+# #Multilevel inheritance
 
-# class Grand_parent:
-#     def home(self):
-#         print("parent1 home")
+# # class Grand_parent:
+# #     def home(self):
+# #         print("parent1 home")
         
-# class Parent(Grand_parent):
-#     def car(self):
-#         print("parent2 car")
+# # class Parent(Grand_parent):
+# #     def car(self):
+# #         print("parent2 car")
         
-# class Child(Parent):
-#     def new(self):
-#         print("child new")
+# # class Child(Parent):
+# #     def new(self):
+# #         print("child new")
         
-# obj=Child()
-# obj.new()
-# obj.car()
-# obj.home()
+# # obj=Child()
+# # obj.new()
+# # obj.car()
+# # obj.home()
 
-#hierarical inheritance
+# #hierarical inheritance
 
-# class Parent:
-#     def home(self):
-#         print("from parent class")
+# # class Parent:
+# #     def home(self):
+# #         print("from parent class")
     
-# class Child1(Parent):
-#     def home(self):
-#         #print("from child1 class")
-#         super().home()
-        
-class Child2(Parent):
-    def home(self):
-        print("from child2 class")
-        
-obj=Child1()
-obj.home()
-obj=Child2()
-obj.home()
-
-Hybrid inheritance#################
-
-
-
-# class Parent:
-#     def home(self):
-#         print("from parent class")
-    
-# class Child1(Parent):
-#     def home(self):
-#         print("from child1 class")
-#         super().home()
+# # class Child1(Parent):
+# #     def home(self):
+# #         #print("from child1 class")
+# #         super().home()
         
 # class Child2(Parent):
 #     def home(self):
-#         print("from child2 class")      
+#         print("from child2 class")
         
-class Child3(Child1,Child2):
-#     def new(self):
-#         print("from child3")
-        
-# obj=Child3()
+# obj=Child1()
 # obj.home()
-# print(Child3.__mro__)  
+# obj=Child2()
+# obj.home()
+
+# Hybrid inheritance#################
+
+
+
+# # class Parent:
+# #     def home(self):
+# #         print("from parent class")
+    
+# # class Child1(Parent):
+# #     def home(self):
+# #         print("from child1 class")
+# #         super().home()
+        
+# # class Child2(Parent):
+# #     def home(self):
+# #         print("from child2 class")      
+        
+# class Child3(Child1,Child2):
+# #     def new(self):
+# #         print("from child3")
+        
+# # obj=Child3()
+# # obj.home()
+# # print(Child3.__mro__)  
 
 
 
