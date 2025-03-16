@@ -165,16 +165,16 @@
 #         #print("from child1 class")
 #         super().home()
         
-# class Child2(Parent):
-#     def home(self):
-#         print("from child2 class")
+class Child2(Parent):
+    def home(self):
+        print("from child2 class")
         
-# obj=Child1()
-# obj.home()
-# obj=Child2()
-# obj.home()
+obj=Child1()
+obj.home()
+obj=Child2()
+obj.home()
 
-#Hybrid inheritance#################
+Hybrid inheritance#################
 
 
 
@@ -192,12 +192,12 @@
 #         print("from child2 class")      
         
 class Child3(Child1,Child2):
-    def new(self):
-        print("from child3")
+#     def new(self):
+#         print("from child3")
         
-obj=Child3()
-obj.home()
-print(Child3.__mro__)  
+# obj=Child3()
+# obj.home()
+# print(Child3.__mro__)  
 
 
 
