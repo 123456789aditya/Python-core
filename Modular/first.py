@@ -1,6 +1,6 @@
-def add(x,y,z):
-    return x+y+z
+# def add(x,y,z):
+#     return x+y+z
 
-def display():
-    print("hi")
+# def display():
+#     print("hi")
 
