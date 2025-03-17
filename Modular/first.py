@@ -26,30 +26,18 @@
 # p1=Program()
 # p1.process()
 
-from abc import ABC,abstractmethod
-
-class BankApp(ABC):
-    def login(self):
-        print("user login")
-    
-    def logout(self):
-        print("user logout")
+class A:
+    x=10
+    y=20
+    def home(self):
+        print("have a home")
         
-    def userdetail(self):
-        print("user details")
+    def car(self):
+        print("have a car")
         
-    @abstractmethod
-    
-    def database(self):
-        pass
-    
-class WebPage(BankApp):
-    def database(self):
-        print("database connected")
+class B(A):
+    def newHome(self):
+        print("new home")
         
-        
-obj=WebPage()
-obj.login()
-obj.logout()
-obj.userdetail()
-obj.database()
+obj=B()
+obj.home()
