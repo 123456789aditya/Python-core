@@ -1,43 +1,83 @@
-# # def add(x,y,z):
-# #     return x+y+z
+# class Parent:
+#     x=10
+#     def car(self):
+#         print("Parent Home")
+        
+# class Child(Parent):
+#     y=20
+#     def car(self):
+#         super().car()
+        
+#         print("Child Car")
+ 
+        
+# obj=Child()
+# print(obj.x)
+# obj.car()
 
-# # def display():
-# #     print("hi")
 
-# from abc import ABC,abstractmethod
 
-# class Computer(ABC):
-#     @abstractmethod
-#     def process(self):
-#         pass
 
-# class Laptop():
-#     def one(self):
-#         print("its running")
-        
-        
-# class Program(Computer):
-#     def process(self,com):
-#         print("Solving Bugs")
-        
-        
-        
-# com=Computer()        
-# p1=Program()
-# p1.process()
 
-class A:
-    x=10
-    y=20
-    def home(self):
-        print("have a home")
+
+
+
+
+
+
+
+# class A:
+#     def add(self,x,y,z):
+#         print(x+y+z)
         
-    def car(self):
-        print("have a car")
+#     def add(self,x):
+#         print(x)
         
-class B(A):
-    def newHome(self):
-        print("new home")
+#     def add(self,x,y):
+#         print(x+y)
         
-obj=B()
-obj.home()
+# obj=A()
+# obj.add(3,5,)
+
+
+
+# class Parent1:
+#     def home(self):
+#         print("parent1 home")
+        
+# class Parent2:
+#     def home(self):
+        
+#         print("parent2 home")
+        
+# class Child(Parent1,Parent2):
+#     def new(self):
+        
+#         print("child car")
+        
+# obj=Child()
+# obj.home()
+
+
+
+
+
+
+
+# class Grand_parent:
+#     def home(self):
+#         print("parent1 home")
+        
+# class Parent(Grand_parent):
+#     def car(self):
+#         print("parent2 car")
+        
+# class Child(Parent):
+#     def new(self):
+#         print("child new")
+        
+# obj=Child()
+# obj.new()
+# obj.car()
+# obj.home()
+
