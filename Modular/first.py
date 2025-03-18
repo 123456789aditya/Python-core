@@ -81,3 +81,18 @@
 # obj.car()
 # obj.home()
 
+class Chasis:
+    def home(self):
+        print("car basic structure")
+        
+class Engine(Chasis):
+    def engine(self):
+        print("car engine design")
+        
+class Car(Engine):
+    def screen(self):
+        print("car price 500000")
+        
+C1=Car()
+C1.home()
+C1.engine()
