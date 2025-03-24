@@ -229,3 +229,28 @@
     
 
 
+# from functools import reduce
+
+# def display(x,y):
+#     return x+y
+
+# my_list=[10,40,20,60,80,60]
+# res=reduce(display,my_list)
+# print(res)
+    
+    
+    
+    
+    
+    
+    
+    
+
+# from functools import reduce
+
+# def display(x,y):
+#     return x+y
+
+# my_list=[10,40,20,60,80,60]
+# res=reduce(display,my_list)
+# print(res)

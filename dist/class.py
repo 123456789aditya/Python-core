@@ -101,7 +101,7 @@
 # print(obj.x)
 # obj.car()
 
-#if 2 metyhods in p-c class have same name then it is called as functioon overriding..
+#if 2 metyhods in both p-c class have same name then it is called as functioon overriding..
 
 
 # class A:

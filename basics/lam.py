@@ -25,7 +25,7 @@
 # print(res)
 
 # l1=['neeraj','raj','jai']
-# res=list(map(lambda x: x.upper(),l1))
+# res=map(lambda x: x.upper(),l1)
 # print(res)
 
 # from functools import reduce
