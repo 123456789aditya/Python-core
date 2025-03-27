@@ -287,3 +287,7 @@ print(res)
 # my_list=[10,40,20,60,80,60]
 # res=reduce(display,my_list)
 # print(res)
+
+
+
+print("hello world!")
