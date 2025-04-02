@@ -117,3 +117,28 @@ def fun(x,y,z):
 res=outer_fun(fun)
 
     
+    
+def outer_fun(fun1):
+    def inner_fun(r,s,t):
+        r=r+5
+        s=s+5
+        t=t+10
+        a=fun1(r,s,t)
+        print(t)
+    return inner_fun
+def fun(x,y,z):
+    return x+y+z
+res=outer_fun(fun)
+
+
+def outer_fun(fun1):
+    def inner_fun(r,s,t):
+        r=r+5
+        s=s+5
+        t=t+10
+        a=fun1(r,s,t)
+        print(t)
+    return inner_fun
+def fun(x,y,z):
+    return x+y+z
+res=outer_fun(fun)
