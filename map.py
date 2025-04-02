@@ -23,12 +23,12 @@
 # print("sankat te hanuman chhudawe man kram vachan dhyaan jo laave")
 
 
-# l1=[2,4,6]
-# l2=[1,2,3]
-# def display(x,y):
-#     return x**y
+l1=[2,4,6]
+l2=[1,2,3]
+def display(x,y):
+    return x**y
 
-# result=map(display,l1,l2)
-# print(list(result))
+result=map(display,l1,l2)
+print(list(result))
 
 
