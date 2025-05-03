@@ -24,6 +24,14 @@ print(list(result))
 # print(a)
 
 
+# a=eval("enter any no.")
+
+# print(a)
+
+# a=eval("enter any no.")
+
+# print(a)
+
 
 
 
