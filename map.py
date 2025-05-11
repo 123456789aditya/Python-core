@@ -28,9 +28,9 @@ print(list(result))
 
 # print(a)
 
-# a=eval("enter any no.")
+a=eval("enter any no.")
 
-# print(a)
+print(a)
 
 
 
