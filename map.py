@@ -19,14 +19,14 @@ a=eval(input("enter numbers from 1 to 20"))
 result=map(display,a)
 print(list(result))
 
-# a=eval("enter any no.")
+a=eval("enter any no.")
 
-# print(a)
+print(a)
 
 
-# a=eval("enter any no.")
+a=eval("enter any no.")
 
-# print(a)
+print(a)
 
 a=eval("enter any no.")
 
