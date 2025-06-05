@@ -19,5 +19,5 @@
 # res=reduce(display,l1)
 # print(res)
  
-
+print("hi")
 
